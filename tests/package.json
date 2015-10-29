@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "pyrsmk-quark": "^2.1.0",
+    "qunitjs": "^1.19.0"
+  }
+}
