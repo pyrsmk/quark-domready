@@ -10,9 +10,7 @@
   "main": "src/quark-domready.js",
   "keywords": [
     "dom",
-    "css",
-    "event",
-    "events",
+    "ready",
     "quark"
   ],
   "license": "MIT",
