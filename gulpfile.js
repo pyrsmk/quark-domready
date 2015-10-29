@@ -20,7 +20,7 @@ gulp.task('version', function() {
 	);
 	streams.add(
 		gulp.src( 'README.md' )
-			.pipe( replace(/^(\w+) [0-9.]+/, '$1 '+version) )
+			.pipe( replace(/^([\w-]+) [0-9.]+/, '$1 '+version) )
 			.pipe( gulp.dest('.') )
 	);
 	return streams;

@@ -1,7 +1,7 @@
 {
   "name": "quark-domready",
   "description": "domReady for quark",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Aurélien Delogu <pyrsmk@dreamysource.fr> (http://dreamysource.fr)",
   "repository": {
     "type": "git",
