@@ -1,4 +1,4 @@
-quark-domready 0.1.1
+quark-domready 0.1.2
 ====================
 
 [dom-ready](https://github.com/noordawod/dom-ready) module for [quark](https://github.com/pyrsmk/quark).
