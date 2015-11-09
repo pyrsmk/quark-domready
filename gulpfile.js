@@ -39,7 +39,7 @@ gulp.task('build', ['version'], function() {
 			.pipe( jshint.reporter('jshint-stylish') )
 	);
 	streams.add(
-		gulp.src( ['./node_modules/dom-ready/dom-ready.min.js', './src/quark-domready.js'] )
+		gulp.src( ['./node_modules/dom-ready/dom-ready.js', './src/quark-domready.js'] )
 			.pipe( uglify() )
 			.pipe( concat('quark-domready.min.js') )
 			.pipe( gulp.dest('.') )
