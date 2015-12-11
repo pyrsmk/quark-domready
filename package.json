@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/pyrsmk/quark-domready.git"
   },
-  "main": "src/quark-domready.js",
+  "main": "quark-domready.js",
   "keywords": [
     "dom",
     "ready",
