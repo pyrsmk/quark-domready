@@ -5,7 +5,8 @@ var fs = require('fs'),
 	replace = require('gulp-replace'),
 	merge = require('merge2'),
 	shell = require('gulp-shell'),
-	concat = require('gulp-concat');
+	concat = require('gulp-concat'),
+	rename = require('gulp-rename');
 
 var version = fs.readFileSync('src/quark-domready.js', {encoding:'utf8'}).match(/^\/\*\! [\w-]+ ([0-9.]+)/)[1];
 
@@ -39,9 +40,11 @@ gulp.task('build', ['version'], function() {
 			.pipe( jshint.reporter('jshint-stylish') )
 	);
 	streams.add(
-		gulp.src( ['./node_modules/dom-ready/dom-ready.min.js', './src/quark-domready.js'] )
+		gulp.src( ['./node_modules/dom-ready/dom-ready.js', './src/quark-domready.js'] )
+			.pipe( concat('quark-domready.js') )
+			.pipe( gulp.dest('.') )
 			.pipe( uglify() )
-			.pipe( concat('quark-domready.min.js') )
+			.pipe( rename('quark-domready.min.js') )
 			.pipe( gulp.dest('.') )
 	);
 	return streams;
