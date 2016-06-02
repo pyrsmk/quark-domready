@@ -1,4 +1,4 @@
-quark-domready 0.1.4
+quark-domready 0.1.5
 ====================
 
 [dom-ready](https://github.com/noordawod/dom-ready) module for [quark](https://github.com/pyrsmk/quark).
@@ -8,6 +8,7 @@ Install
 
 ```shell
 npm install quark-domready
+bower install quark-domready
 ```
 
 Use

@@ -1,0 +1,27 @@
+{
+  "name": "quark-domready",
+  "description": "domready module for quark",
+  "main": "quark-domready.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pyrsmk/quark-domready.git"
+  },
+  "keywords": [
+    "micro",
+    "framework",
+	"ready"
+  ],
+  "authors": ["Aurélien Delogu"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrsmk/quark-domready/issues"
+  },
+  "ignore": [
+    ".git/",
+    ".gitignore",
+    "nodes_modules/",
+    "tests/",
+    "gulpfile.js",
+    "package.json"
+  ]
+}
