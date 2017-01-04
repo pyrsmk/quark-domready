@@ -1,7 +1,7 @@
 {
   "name": "quark-domready",
   "description": "domready module for quark",
-  "main": "quark-domready.js",
+  "main": "lib/quark-domready.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pyrsmk/quark-domready.git"
